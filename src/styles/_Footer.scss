@@ -1,0 +1,25 @@
+.footer {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    position: absolute;
+    bottom: 0.3rem;
+    margin-top: 1.5rem;
+    // color: #363636;
+    color: #b0bec5;
+    // color: #fbd775;
+    // z-index: -1;
+    a {
+      color: #b0bec5;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 13px;
+  }
+}

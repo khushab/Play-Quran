@@ -1,0 +1,28 @@
+.chapter {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 20%;
+    // border-radius: 50%;
+  }
+  h2 {
+    padding: 3rem 1rem 1rem 1rem;
+    color: #fbd775;
+  }
+  h3 {
+    font-size: 1rem;
+    // color: rgb(177, 176, 176);
+    color: #b0bec5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .chapter {
+    img {
+      width: 60%;
+    }
+  }
+}

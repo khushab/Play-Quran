@@ -1,0 +1,30 @@
+.library__chapter {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  transition: background 0.5s ease;
+  img {
+    width: 30%;
+  }
+  &:hover {
+    background-color: rgb(54, 54, 54);
+    // background-color: #ccc5c5;
+  }
+}
+
+.chapter__description {
+  padding-left: 1rem;
+  h3 {
+    font-size: 1rem;
+    color: #fbd775;
+  }
+  h4 {
+    font-size: 0.7rem;
+    color: rgb(177, 176, 176);
+  }
+}
+
+.selected {
+  background: rgb(54, 54, 54);
+}
